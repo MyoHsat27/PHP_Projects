@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9c59afa-c48a-4066-8fee-3b23885c6c85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Public/assets/css/orders.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Stock.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Stock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/assets/css/orderNow.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/assets/css/orderNow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/assets/css/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/assets/css/shop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/assets/js/order-now.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/assets/js/order-now.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Router/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Router/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/admin/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/admin/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/user/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/user/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/user/orderNow.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/user/orderNow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/user/orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/user/orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/user/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/user/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/user/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/user/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrate.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ut5MRoo3qSAUJC02ntQ75cE4Ev" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9c59afa-c48a-4066-8fee-3b23885c6c85" name="Changes" comment="" />
+      <created>1693745987673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693745987673</updated>
+      <workItem from="1693745988958" duration="3281000" />
+      <workItem from="1693931541669" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

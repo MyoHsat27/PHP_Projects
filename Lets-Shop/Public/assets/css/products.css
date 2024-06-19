@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --active-color : #6659FF;
+    --active-color-dark : #4b41c2;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+.path-link {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 5px;
+    margin-left: 3px;
+    font-size: 15px;
+    color: #3f3f3f;
+    text-decoration: none;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+.path-link:hover {
+    color: var(--active-color-dark);
+}
+.path-link:first-child {
+    margin-left: 0;
+}
+.path-link:last-child {
+    color: black;
+    font-weight: 600;
+}
+.path-seperate {
+    font-size: 15px;
+    color: #3f3f3f;
+}
+.item-type {
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.item-no {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #6e6e6e;
+}
+
+.filter-main-container {
+    width: 20%;
+}
+.filter-button {
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 3px 8px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    color: #4b4b4b;
+}
+.filter-button:hover {
+    background : rgba(0, 0, 0, 0.06);
+}
+.filter-icon {
+    font-size: 13px;
+    margin-left :5px
+}
+.sort-button-container {
+    border: 1px solid #b6b6b6;
+    padding:7px 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+.sort-text-1 {
+    font-size: 13px;
+    color: black;
+}
+.sort-text-2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.sort-icon {
+    font-size: 15px;
+    color: #8f8f8f;
+}
+
+.products-main-container {
+    width: 80%;
+}
+
+.filter-main-container {
+    padding: 0;
+}
+.filter-container {
+    padding: 0 10px 20px;
+    margin-top : 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.filter-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.category-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px 8px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    background: white;
+    border-radius: 2px;
+    border-color: #b6b6b6;
+    font-family: Quicksand, sans-serif;
+    outline: none;
+}
+.filter-input {
+    width: 100%;
+    font-family: Quicksand, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 1px solid #b6b6b6;
+    padding: 4px 8px;
+    outline: none;
+}
+.price-title {
+    margin: 0;
+}
+.price-text {
+    margin-right: 5px;
+    font-family: Quicksand, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #7e7e7e;
+}
+.price-button {
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+.price-button:active {
+    background: #e3e3e3;
+}
+
+.discount-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}

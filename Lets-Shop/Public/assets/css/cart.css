@@ -1,0 +1,248 @@
+/* Cart Header Style Start */
+.product-status {
+    font-size: 15px;
+    text-align: end;
+}
+.product-status.success {
+    color: #118111;
+}
+.product-status.remove {
+    color: #dc2020;
+}
+
+.cart-header-container {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+}
+.cart-header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-delete-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: gray;
+    transition: all 0.1s;
+    border: none;
+    background: white;
+}
+.cart-delete-icon {
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 3px;
+}
+.cart-delete-all:hover {
+    color: #be2626;
+}
+.cart-delete-all:active {
+    color: #961313;
+}
+/* Cart Header Style End */
+
+/* Cart Item Style Start */
+.cart-item-container {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+
+}
+.cart-item-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+.cart-item-img-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+}
+.cart-item-img {
+    width: 100%;
+    height: 100%;
+}
+.cart-item-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+}
+.cart-text-container {
+    width: 320px;
+    margin-right: 10px;
+}
+.cart-description {
+    font-size: 15px;
+    color: gray;
+}
+.cart-item-price {
+    color: var(--active-color);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+.cart-item-action-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 3px;
+}
+.wishlist-btn {
+    margin-right: 15px;
+    background: white;
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    color: #6c6c6c
+}
+.wishlist-btn.in-wishlist {
+    color: var(--active-color);
+    border: none;
+}
+.delete-btn {
+    margin-right: 15px;
+    background: white;
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    color: #6c6c6c;
+    transition: all 0.1s;
+}
+.delete-btn:hover {
+    color: #ab2525;
+}
+.cart-item-quantity-container {
+    display: flex;
+    align-items: center;
+}
+.cart-item-quantity-btn {
+    background: var(--active-color);
+    color: white;
+    border-color: var(--active-color);
+}
+.cart-item-quantity-btn:hover {
+    background: var(--active-color-dark);
+    color: white;
+    border-color: var(--active-color-dark);
+}
+.cart-item-quantity-btn:disabled {
+    border-color: #e7e7e7;
+    background: #e7e7e7;
+}
+.cart-item-quantity {
+    margin: 0 10px;
+}
+/* Cart Item Style End */
+
+/* Not Available Cart Item Style Start */
+.cart-header-container.not-available {
+    padding: 10px;
+    margin: 0;
+    border-bottom : 1px solid #dedede;
+}
+.cart-item-container.not-available {
+    margin: 0;
+    padding-bottom: 10px;
+}
+.wishlist-btn.not-available {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    color: #6c6c6c;
+    transition: all 0.1s;
+}
+.wishlist-btn.not-available:hover {
+    color: var(--active-color-dark)
+}
+.wishlist-btn.not-available.in-wishlist {
+    color: var(--active-color)
+}
+.wish-icon.not-available {
+    margin-right: 5px;
+}
+/* Not Available Cart Item Style End */
+
+/* Cart Summary Style Start */
+.summary-container {
+    background: white;
+    padding: 10px 15px;
+}
+.summary-title {
+    font-size: 17px;
+        font-weight: 500;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 10px;
+}
+.summary-price-container {
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6b6a6a;
+    display: flex;
+    align-items: center;
+}
+.summary-price-container .name {
+    width: 70%
+}
+.summary-price-container .price {
+    width: 30%;
+    color : #424242;
+    font-size: 16px;
+    text-align: end;
+}
+.summary-price-total-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-top: 1px solid #c9c9c9;
+}
+.summary-price-total-container .name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #414141;
+}
+.summary-price-total-container .price {
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--active-color);
+}
+.checkout-btn {
+    background: var(--active-color);
+    color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 8px 0;
+    transition: all 0.1s;
+}
+.checkout-btn:hover {
+    background: #5c50ea;
+}
+.checkout-btn:active {
+    background: var(--active-color-dark);
+}
+
+/* Cart Summary Style End */

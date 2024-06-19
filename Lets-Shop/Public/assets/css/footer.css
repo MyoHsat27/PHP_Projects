@@ -1,0 +1,67 @@
+/*footer-section start*/
+.footer-first-main-container {
+    background: white;
+    border-bottom: 1px solid #eaeaea;
+}
+.footer-first-container {
+    margin-top: 60px;
+    padding: 50px 0 40px;
+}
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first-section .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px;
+}
+.first-section .info-container .icon {
+    font-size: 30px;
+    color: #494949;
+}
+.first-section .info-container .title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4b4b4b;
+    margin-top: 15px;
+}
+.first-section .info-container .desc {
+    text-align: center  ;
+    font-size: 13px;
+    color: #868686;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footer-second-main-container {
+    background: white;
+}
+.footer-second-container {
+    padding: 50px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-left-container {
+    display: flex;
+    font-size: 16px;
+}
+.second-right-container .text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #4b4b4b;
+}
+.second-right-container .icon-container {
+    margin-top: 5px;
+}
+.second-right-container .icon-container i {
+    font-size: 25px;
+    margin: 5px 8px 0;
+}
+/*footer-section end*/

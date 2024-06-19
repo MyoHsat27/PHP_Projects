@@ -1,0 +1,150 @@
+/*Navbar Style Start*/
+.navbar {
+    border-bottom: 2px solid rgba(216, 222, 227, 0.69);
+    background: white;
+    z-index: 100;
+    padding: 20px 0;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.links-container a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin-left: 25px;
+    color: #363636;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.links-container a:hover {
+    color: var(--active-color-dark);
+}
+
+.right-nav-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.search-container .search {
+    background: #f6f6f6;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #f6f6f6;
+    transition: all 0.3s;
+}
+
+.search-container .search-onfocus {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.search-container .search i {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.search-container .search input {
+    width: 400px;
+    background: none;
+    border: none;
+    font-size: 14px;
+}
+
+.search-container .search input:focus-visible {
+    outline: none;
+}
+
+.right-nav-link-container {
+    margin-left: 30px;
+    display: flex;
+}
+
+.right-nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.right-nav-link:hover {
+    color: black;
+}
+
+.right-nav-link span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.right-nav-link i {
+    font-size: 18px;
+}
+
+.account-icon {
+    position: relative;
+}
+
+.account-info {
+    display: none;
+    cursor: default;
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    right: -50px;
+    background: white;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.1);
+}
+
+.account-info.show {
+    display: block;
+}
+
+.account-info div:first-child {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.account-info div:nth-child(2) {
+    font-size: 13px;
+    color: #313131;
+    margin-bottom: 20px;
+}
+
+.account-info a {
+    text-decoration: none;
+    color: var(--active-color-dark);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: 1px solid var(--active-color);
+    transition: all 0.2s;
+}
+
+.account-info a:hover {
+    text-decoration: none;
+    color: white;
+    background: var(--active-color);
+}
+
+.profile-name {
+    margin-bottom: 5px !important;
+}
+
+.profile-img {
+    width: 20px;
+    height: 20px;
+}
+
+/*Navbar Style End*/

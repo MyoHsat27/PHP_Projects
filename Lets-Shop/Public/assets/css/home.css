@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #F2F2F2;
+}
+
+:root {
+    --active-color : #6659FF;
+    --active-color-dark : #4b41c2;
+    --danger: #e14444;
+    --danger-dark: #c23434;
+}
