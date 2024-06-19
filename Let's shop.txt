@@ -1,0 +1,25 @@
+Admin UI - Inventory Page, Category Page, Discount Page, Orders Page
+Customer UI - Home Page, Products Page, Single Product Page, Order History Page
+
+Admin
+-----
+Product Page - CRUD Product, Active Product (active ? will show in user : will not show), Add More Stock, Give Discount to Product, Can Give Discount Based on Sale Quantity
+Category Page - CRUD Category
+Discount Page - Add Discount to Product
+Orders Page - Check Orders, Marked Delivered Orders, Filtered Orders
+
+User
+----
+Create User account - Login, Sign up
+
+Product - Show Products, Show Promoted Product in Top, Filter Product By (Category, Promotion), Search Product, Order Product, Check Order Lists, Logout
+
+Single Product - For Product Detail : (Show Product Name, Image, Description, Category), Available Stock, Discount (If Available), Normal Price, Total Price, Grand Total Price (If Discount Available)
+               - For User Order : Choose Quantity, Change Grand Price, Order Button (Popup Order Form)
+               
+In Order Form - Show Product & Order detail (Name, Id, Image, Price per unit, Quantity, Total Price, Discount, Grand Total Price), Enter Username, Ph.no, Address, Description, Submit Button (Add to Cart)
+
+Cart - Show Order (Show Product & Order detail (Name, Id, Image, Price per unit, Quantity, Total Price, Discount, Grand Total Price), Username, Ph.no, Address, Description), Can cancel order within 2 days
+       If the Order is delivered, the order can no longer be see in Cart.
+       
+Order History - Show Order History : Order Details

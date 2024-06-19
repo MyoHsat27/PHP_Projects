@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  const fruits = ["apple","orange","mango"];
+  let result = fruits
+    .filter((fruit) => fruit.length === 5)
+    .map((fruit) => fruit.toUpperCase())
+    .join("-");
+
+  console.log(result);
+</script>
+</body>
+</html>
