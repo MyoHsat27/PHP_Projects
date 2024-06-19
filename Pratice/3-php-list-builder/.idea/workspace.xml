@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c5156fe-f35f-4e7a-af5d-51606c941192" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/inventory.controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/user.controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/inventory/create.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/inventory/edit.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/inventory/index.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/template/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/602c532a-0837-4de0-ae20-a0ea83edde1a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/602c532a-0837-4de0-ae20-a0ea83edde1a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/602c532a-0837-4de0-ae20-a0ea83edde1a/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/602c532a-0837-4de0-ae20-a0ea83edde1a/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/602c532a-0837-4de0-ae20-a0ea83edde1a/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/602c532a-0837-4de0-ae20-a0ea83edde1a/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/list.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/list.controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/page.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/page.controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/router/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/list/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/list/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/template/header.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PEPMJzJtPfm0IPZ6pjJYuVHvoH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c5156fe-f35f-4e7a-af5d-51606c941192" name="Changes" comment="" />
+      <created>1683019218746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683019218746</updated>
+      <workItem from="1683019221330" duration="251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
